@@ -177,6 +177,21 @@ h1, p {
 .smlinks {
 	width: 50%;
 }
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #1a1616;
+}
+.video {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-self: center;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 10px 10px whitesmoke;
+}
 
 @media only screen and (max-width: 600px)
 {
