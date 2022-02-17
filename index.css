@@ -1,5 +1,6 @@
 * {
     margin: 0%;
+
 }
 h1, p {
     font-family: 'Open Sans', sans-serif;
@@ -233,11 +234,18 @@ h1, p {
 		margin-top: 40px;
 
 	}
+
     .layer h1 { /* for mobile */
         font-size: 18px;
         margin-bottom: 3px;
     }
     .layer p {
         margin-bottom: 5px;
+        color: aliceblue;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
+    .layer {
+        margin-left: 0px;
     }
 }
