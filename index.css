@@ -233,7 +233,7 @@ h1, p {
 		margin-top: 40px;
 
 	}
-    .layer h1 {
+    .layer h1 { /* for mobile */
         font-size: 18px;
         margin-bottom: 3px;
     }
