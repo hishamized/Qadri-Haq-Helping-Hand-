@@ -248,4 +248,8 @@ h1, p {
     .layer {
         margin-left: 0px;
     }
+    .about {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
