@@ -58,7 +58,7 @@ h1, p {
     box-shadow: 2px 2px 3px whitesmoke;
 }
 .help-box {
-    background-image: url(./images/cat.jpg);
+    background-image: url(images/cat.jpg);
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
