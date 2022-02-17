@@ -271,4 +271,8 @@ h1, p {
         margin-left: 0px;
         margin-right: 0px;
     }
+    .footer-col{
+        margin: 10px;
+    }
+
 }
