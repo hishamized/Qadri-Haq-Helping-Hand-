@@ -274,5 +274,7 @@ h1, p {
     .footer-col{
         margin: 10px;
     }
-
+    .smicons {
+        width: 200px;
+    }
 }
