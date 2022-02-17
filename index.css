@@ -233,4 +233,11 @@ h1, p {
 		margin-top: 40px;
 
 	}
+    .layer h1 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .layer p {
+        margin-bottom: 5px;
+    }
 }
