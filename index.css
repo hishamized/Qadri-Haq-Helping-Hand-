@@ -147,6 +147,10 @@ h1, p {
 	box-shadow: 0 0 10px 2px whitesmoke;
 	transition: 0.2s;
 }
+#donate_footer:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px 2px red;
+}
 .footer {
 	color: white;
 	display: flex;
