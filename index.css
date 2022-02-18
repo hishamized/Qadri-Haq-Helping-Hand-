@@ -195,7 +195,7 @@ h1, p {
 @media only screen and (max-width: 600px)
 {
     html, body *:not(.top-bar) {
-        color: red
+        overflow-x: hidden;
       }
     .top-bar {
         flex-direction: column;
