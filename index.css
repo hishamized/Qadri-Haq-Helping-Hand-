@@ -281,9 +281,25 @@ h1, p {
     }
     .layer {
         margin: 0%;
-        width: 100%;
+        width: 99%;
         height: 90%;
+       
     }
+    .layer > .donate {
+        margin-top: 7%;
+        margin-left: 0%;
+        position: absolute;
+        width: 40%;
+     }
+     .layer h1 {
+         font-weight:bolder;
+         margin-bottom: 0px;
+        
+     }
+     .layer p {
+         margin-bottom: 0px;
+         margin-top: 4%;
+     }
     .help-box {
         height: 270px;
     }
