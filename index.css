@@ -327,18 +327,27 @@ h1, p {
 		flex-direction: column;
 	}
     .end-box {
-        height: 300px;
+        height: 270px;
+        align-items: center;
     }
     .end-box-text {
         font-size: small;
-        line-height: 40px;
+        line-height:normal;
         overflow: hidden;
+        text-align: center;
     }
     .end-box-text a {
-        margin-top: 90px;
+        margin-top: 45px;
+    }
+    .end-box-text h1,p {
+        margin-bottom: 10px;
+    }
+    .wdwd {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
-@media only screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
+@media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     .layer {
         margin-left: 0px;
     }
@@ -351,5 +360,15 @@ h1, p {
     }
     .smicons {
         width: 200px;
+    }
+    .end-box-text {
+        text-align: center;
+    }
+    .end-box-text h1, p {
+        margin-bottom: 15px;
+    }
+    .end-box-text a {
+        margin-top: 150px;
+        
     }
 }
