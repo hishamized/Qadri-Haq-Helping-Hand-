@@ -282,7 +282,7 @@ h1, p {
     .layer {
         margin: 0%;
         width: 90%;
-        height: 90%;
+        height: 100%;
        
     }
     .layer > .donate {
