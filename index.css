@@ -231,6 +231,25 @@ h1, p {
 	box-shadow: 0 0 20px 3px rgba(255, 0, 0, 0.801);
 	border-radius: 3px;
 }
+.end-box {
+    background-image: url(./images/poor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: white;
+}
+.end-box-text {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+}
 
 @media only screen and (max-width: 600px)
 {
@@ -307,6 +326,17 @@ h1, p {
     .events {
 		flex-direction: column;
 	}
+    .end-box {
+        height: 300px;
+    }
+    .end-box-text {
+        font-size: small;
+        line-height: 40px;
+        overflow: hidden;
+    }
+    .end-box-text a {
+        margin-top: 90px;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
     .layer {
