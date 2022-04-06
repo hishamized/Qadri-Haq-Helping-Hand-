@@ -226,8 +226,7 @@ h1, p {
 	color: rgb(255, 0, 0);
 }
 .events-cells img:hover {
-	width: 315px;
-	height: 315px;
+	transform: scale(1.1);
 	box-shadow: 0 0 20px 3px rgba(255, 0, 0, 0.801);
 	border-radius: 3px;
 }
@@ -386,5 +385,9 @@ h1, p {
     .end-box-text a {
         margin-top: 150px;
         
+    }
+    .events-cells {
+        width: 100px;
+        height: 100px;
     }
 }
